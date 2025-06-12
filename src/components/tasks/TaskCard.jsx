@@ -132,7 +132,7 @@ const TaskCard = ({ task, onEditTask, onViewDetails }) => {
                 <Eye className="mr-2 h-4 w-4" /> View Details
               </DropdownMenuItem>
               <DropdownMenuSeparator />
-              <DropdownMenuItem onClick={() => toast({title: "🚧 Feature Not Implemented", description: "Deleting tasks isn't implemented yet—but don't worry! You can request it in your next prompt! 🚀"})} className="text-destructive focus:text-destructive focus:bg-destructive/10">
+              <DropdownMenuItem onClick={() => toast({title: "🚧 Feature Not Implemented", description: "Deleting tasks isn't implemented yet—but don't worry!! 🚀"})} className="text-destructive focus:text-destructive focus:bg-destructive/10">
                 <Trash2 className="mr-2 h-4 w-4" /> Delete Task
               </DropdownMenuItem>
             </DropdownMenuContent>
