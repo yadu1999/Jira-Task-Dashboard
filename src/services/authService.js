@@ -24,7 +24,7 @@
 //   }
 // ];
 
-import { mockTasks } from "../lib/utils";
+import { mockUsers } from "../lib/utils";
 
 class AuthService {
   generateToken(user) {
@@ -99,7 +99,7 @@ class AuthService {
   async login(email, password, jiraCredentials) {
     try {
       
-      const user = mockTasks?.find(u => u.email === email && u.password === password);
+      const user = mockUsers?.find(u => u.email === email && u.password === password);
       
       if (!user) {
         return { success: false, message: 'Invalid app email or password' };
