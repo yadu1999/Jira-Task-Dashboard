@@ -1,0 +1,29 @@
+# Node
+node_modules/
+node_modules/**/
+dist/
+dist/**/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+package-lock.json
+
+
+# Vite
+dist/
+.cache/
+.vite/
+
+# Env files
+.env
+.env.*.local
+
+
+
+# Build artifacts
+coverage/
+*.tsbuildinfo
+
+
